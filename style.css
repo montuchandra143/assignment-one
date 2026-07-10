@@ -149,3 +149,206 @@
     color: #6B7280;
     line-height: 1.6;
 }
+
+
+/*====================prining  card views===================*/
+.prices_section{
+    padding:100px 0;
+    background:#ffffff;
+}
+.prices_title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.prices_title h2{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.prices_title p{
+    font-size:16px;
+    color:#313234;
+}
+.price_grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.price_card{
+    background:#ffffff;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:30px;
+}
+.price_card.bgcolor h3{
+    color: #fff;
+}
+.bgcolor{
+    background:#111827;
+}
+.price_card.bgcolor ul li {
+    color: #fff;
+}
+.plan, .planing {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #0b52df;
+    margin-bottom: 12px;
+}
+.price_card h3{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.price_card p{
+    font-size:15px;
+    color:#6B7280;
+}
+.undrline{
+    width:100%;
+    height:1px;
+    background:#E5E7EB;
+    margin:25px 0;
+}
+.price_card ul{
+    list-style:none;
+    margin-bottom:35px;
+}
+
+.price_card ul li{
+    position:relative;
+    padding-left:20px;
+    margin-bottom:15px;
+    color:#4B5563;
+    font-size:15px;
+    line-height:1.6;
+}
+
+.price_card ul li::before{
+
+    content:"•";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#2563EB;
+    font-size:18px;
+}
+.card_view_btn {
+    width:100%;
+    height:48px;
+    border:1px solid #2563EB;
+    background:#ffffff;
+    color:#2563EB;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+.bgcolor .card_view_btn{
+    background:#2563EB;
+    color:#ffffff;
+    border:none;
+}
+/*========owering DevConf 2026 Section=============*/
+.Ai_Powering{
+     text-align: center; 
+     background-color: #050508;
+     padding-bottom: 40px; 
+     padding-top: 50px;
+    }
+
+.header-section h4 {
+    color: #818cf8;
+    letter-spacing: 3px;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}      
+ .header-section h1 {
+    font-size: 2.8rem;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+    color: #fff;
+}
+.header-section p {
+    color: #a2c8ff;
+    margin-bottom: 60px;
+    font-size: 1.1rem;
+}
+        /* Tier Separators */
+.tier-label {
+    color: #ffffff;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 50px 0 25px;
+    border-bottom: 1px solid #1e293b;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+        /* Card Grid */
+        .grid {
+             display: grid;
+              grid-template-columns: repeat(4, 1fr);
+               gap: 20px;
+                margin-bottom: 20px; 
+            }
+        .card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 20px;
+            border-radius: 12px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .card img { 
+            max-width: 100%;
+             max-height: 100%; 
+             filter: grayscale(1) brightness(2);  
+            }
+        .card:hover img { 
+            filter: grayscale(0) brightness(1);
+             opacity: 1; 
+            }
+        .card:hover {
+             background: rgba(255, 255, 255, 0.08);
+              border-color: #818cf8;
+             }
+
+        /* CTA Box */
+        .cta-box {
+            margin-top: 80px;
+            padding: 30px 40px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+        }
+        .cta-button {
+            padding: 12px 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+             background: #818cf8;
+              border-color: #818cf8; 
+            }
