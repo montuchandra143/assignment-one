@@ -2,10 +2,21 @@
     margin: 0px;
     padding: 0px;
      font-family: "Open Sans", sans-serif;
+     
+
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.nav_header {
+    background-color: #fff;
+    position: sticky; 
+    top: 0;         
+    z-index: 1000;    
+    width: 100%;     
+    box-shadow: 0 2px 5px rgba(58, 58, 58, 0.1); 
 }
 .navbar{
     display: flex;
@@ -17,7 +28,7 @@
     list-style: none;
 }
 .nav-itme-btn a{
-     text-decoration:none;
+    text-decoration:none;
     color:#6b7280;
     font-size:15px;
     font-weight:500;
@@ -328,18 +339,24 @@
              }
 
         /* CTA Box */
-        .cta-box {
-            margin-top: 80px;
-            padding: 30px 40px;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            text-align: left;
-        }
-        .cta-button {
+   .cta-box {
+    margin-top: 80px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+}
+.cta-box p {
+    color: #fff !important;
+    line-height: 46px;
+    font-size: 14px;
+}
+.cta-button {
             padding: 12px 25px;
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 8px;
@@ -348,7 +365,53 @@
             cursor: pointer;
             transition: 0.3s;
         }
-        .cta-button:hover {
+.cta-button:hover {
              background: #818cf8;
               border-color: #818cf8; 
             }
+  /*==================Footer section=========================*/
+  .footer {
+        background-color: #050508;
+        padding: 40px 60px;
+        color: #fff;
+        padding-top: 60px;
+    }
+
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+ 
+    .social_links a {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .social_links a:hover { 
+        background: #818cf8; 
+    }
+
+    .footer_divider {
+         border: 0; 
+         border-top: 1px solid rgba(255, 255, 255, 0.1);
+          margin: 20px 0;
+         }
+
+    .footer_bottom {
+         text-align: center;
+          font-size: 0.85rem;
+           color: #64748b; 
+        }
